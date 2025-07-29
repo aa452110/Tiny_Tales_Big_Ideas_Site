@@ -1,0 +1,33 @@
+# Logs and statistics
+logs/
+webstats/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Claude AI
+.claude/
+
+# Environment files
+.env
+.env.local
+
+# Build outputs (if any in future)
+dist/
+build/
