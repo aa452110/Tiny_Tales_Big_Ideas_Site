@@ -1,0 +1,79 @@
+{
+  "title": "One Little Byte",
+  "cover": "https://m.media-amazon.com/images/I/51CotbOC3TL._SL500_.jpg",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "If one little bit was actually an ant, then eight ants would make up a byte.\n\nIf a byte of ants were found in his pants, your grandpa might dance through the night.",
+      "image": "images/one-little-byte/1.webp",
+      "audio": "audio/one-little-byte/1.mp3"
+    },
+    {
+      "pageNumber": 2,
+      "text": "If one little byte was actually a bee, then a kilobyte could be a hive.\n\nIf one thousand bees were buzzing in trees an orchard’s blossoms would thrive.",
+      "image": "images/one-little-byte/2.webp",
+      "audio": "audio/one-little-byte/2.mp3"
+      
+    },
+    {
+      "pageNumber": 3,
+      "text": "If one little byte was actually a pig, then a megabyte would make up a sounder.\n\nIf a million pigs all oinked at your sister, they’d shock and alarm and astound her.",
+      "image": "images/one-little-byte/3.webp",
+      "audio": "audio/one-little-byte/3.mp3"
+    },
+    {
+      "pageNumber": 4,
+      "text": "If one little byte was actually a cow, then a gigabyte would fill up a lagoon.\n\nIf one billion cows all mooed out loud, they’d wake up the man on the moon.",
+      "image": "images/one-little-byte/4.webp",
+      "audio": "audio/one-little-byte/4.mp3"
+    },
+    {
+      "pageNumber": 5,
+      "text": "If one little byte was actually a tree, then a terabyte would be a grand forest.\n\nA trillion trees, leaning with the breeze, and swaying like a towering chorus.",
+      "image": "images/one-little-byte/5.webp",
+      "audio": "audio/one-little-byte/5.mp3"
+    },
+    {
+      "pageNumber": 6,
+      "text": "If one tiny byte was actually a note, then a petabyte could record all our singing.\n\nThousands of trillions of harmonies stored, through hums and whistles and ringing.",
+      "image": "images/one-little-byte/6.webp",
+      "audio": "audio/one-little-byte/6.mp3"
+    },
+    {
+      "pageNumber": 7,
+      "text": "If one little byte was actually a grain, then an exabyte could be all beaches.\n\nMillions of trillions of sand to walk on, encrypted and colored like peaches.",
+      "image": "images/one-little-byte/7.webp",
+      "audio": "audio/one-little-byte/7.mp3"
+    },
+    {
+      "pageNumber": 8,
+      "text": "If one little byte was actually a drop, then a zettabyte would be all oceans.\n\nBillions of trillions of droplets for fish, to swim in and practice their motions.",
+      "image": "images/one-little-byte/8.webp",
+      "audio": "audio/one-little-byte/8.mp3"
+    },
+    {
+      "pageNumber": 9,
+      "text": "If one little byte was actually a cell, then a yottabyte would be all the living.\n\nTrillions of trillions of bodies in code, each breathing, and sharing, and giving.",
+      "image": "images/one-little-byte/9.webp",
+      "audio": "audio/one-little-byte/9.mp3"
+    },
+    {
+      "pageNumber": 10,
+      "text": "If one little byte was a piece of paper, then a ronnabyte would stack—what’d you say?\n\nThousands of trillions of trillions of feet reaching two and a half light years away!",
+      "image": "images/one-little-byte/10.webp",
+      "audio": "audio/one-little-byte/10.mp3"
+    },
+    {
+      "pageNumber": 11,
+      "text": "If one little byte was the tiniest of sparks then a quettabyte would be all the light.\n\nMillions of trillions of trillions of flashes conquering the depths of the night.",
+      "image": "images/one-little-byte/11.webp",
+      "audio": "audio/one-little-byte/11.mp3"
+    },
+    {
+      "pageNumber": 12,
+      "text": "With all these bits and towering sums, our weary minds drift off to sleep.\n\nFrom one little byte to conquering the night—next time we’ll just count some sheep.",
+      "image": "images/one-little-byte/12.webp",
+      "audio": "audio/one-little-byte/12.mp3"
+    }
+  ]
+}

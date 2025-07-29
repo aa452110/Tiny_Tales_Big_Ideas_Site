@@ -1,0 +1,553 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202505 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.tinytalesbigideas.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2004                
+POS_TIME 2687                
+POS_VISITOR 8880                
+POS_DAY 14567               
+POS_DOMAIN 3404                
+POS_LOGIN 3815                
+POS_ROBOT 3970                
+POS_WORMS 4840                
+POS_EMAILSENDER 4971                
+POS_EMAILRECEIVER 5114                
+POS_SESSION 15262               
+POS_SIDER 15431               
+POS_FILETYPES 5249                
+POS_DOWNLOADS 5402                
+POS_OS 5471                
+POS_BROWSER 5675                
+POS_SCREENSIZE 6726                
+POS_UNKNOWNREFERER 6800                
+POS_UNKNOWNREFERERBROWSER 7414                
+POS_ORIGIN 7596                
+POS_SEREFERRALS 7733                
+POS_PAGEREFS 7877                
+POS_SEARCHWORDS 8025                
+POS_KEYWORDS 8177                
+POS_MISC 2350                
+POS_ERRORS 8236                
+POS_CLUSTER 3671                
+POS_SIDER_404 8337                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250601140513 647 170806 7713348259656
+FirstTime 20250501031107
+LastTime 20250531225330
+LastUpdate 20250602042857 647 646 0 0 0
+TotalVisits 123                 
+TotalUnique 119                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 163                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 17 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 10 36279 3 6 35433
+1 19 21 85467 9 18 78977
+2 9 9 43190 1 4 1674
+3 6 11 976837 4 8 52841
+4 5 7 35884 3 6 39433
+5 21 24 1711173 4 14 67358
+6 6 6 22262 5 12 18750
+7 14 22 3319421 3 9 79246
+8 9 12 1658417 2 5 9402
+9 8 10 989061 37 44 183089
+10 3 5 16364 8 13 69538
+11 4 4 15740 3 6 34961
+12 2 2 7930 6 9 28746
+13 6 6 22250 4 9 42323
+14 18 18 74602 4 9 951237
+15 0 0 0 12 27 779821
+16 3 3 11215 11 21 201769
+17 4 5 15915 9 21 180974
+18 25 47 185545 18 35 2298732
+19 7 7 27545 4 8 16406
+20 16 31 5498287 3 9 47185
+21 8 8 33044 10 17 69862
+22 9 15 1933509 7 9 35791
+23 6 9 39956 10 31 776046
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+us 122 154 12713746
+gb 24 41 155095
+fr 18 20 74963
+cn 12 18 1970504
+de 11 17 60140
+ca 9 16 1686955
+se 8 8 31480
+pl 3 4 19646
+nl 2 4 14800
+at 2 2 3935
+es 1 1 3935
+ru 2 2 7870
+sg 1 1 3935
+tr 1 4 11899
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+Googlebot/ 70 91171 20250531180503 22
+AhrefsBot/ 55 56854 20250525064046 15
+panscient 35 172920 20250517094531 2
+bingbot/ 32 2349654 20250530140046 15
+SemrushBot/ 22 68378 20250515151129 9
+dataprovider\.com 17 1780650 20250526183534 1
+Googlebot\-Image/ 13 30459 20250529200536 0
+spider 6 6296 20250530134128 1
+bot[\s_+:,\.\;\/\\-] 6 18773 20250512232234 1
+unknown 6 366 20250517234718 6
+no_user_agent 2 30930 20250515125445 0
+curl 4 50330 20250529054254 0
+domainchecker 1 0 20250527211241 0
+^mozilla\/5\.0$ 2 7870 20250521194027 0
+crawl 2 3996 20250518160653 1
+ips\-agent 4 14741 20250505014342 1
+Applebot/ 2 3996 20250516211236 1
+facebookexternalhit/ 1 30 20250524174712 1
+python 2 122 20250530025832 2
+scanner 1 15465 20250524210352 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+webp 5 3401230 0 0
+html 211 889985 0 0
+png 60 12456344 0 0
+css 5 7894 0 0
+js 11 2460 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 33 990
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+Unknown 40 8
+macosx 26 22
+linux 85 46
+linuxandroid 17 16
+win10 123 108
+win8.1 3 1
+macosx9 1 1
+win8 1 1
+win7 8 3
+ios_iphone 19 8
+winnt 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 51
+chrome81.0.1885 1 0
+chrome96.0.2510 1 1
+chrome120.0.0.0 1 1
+chrome135.0.0.0 45 23
+chrome136.0.0.0 7 4
+chrome114.0.0.0 19 16
+chrome76.0.3809.132 1 1
+chrome116.0.1938.76 4 0
+chrome112.0.5615.136 1 1
+chrome73 1 1
+chrome134.0.0.0 1 1
+chrome117.0.5938.132 5 2
+chrome129.0.0.0 1 1
+chrome121.0.0.0 3 2
+safari17.3.1 3 2
+Unknown 17 4
+opera64.0.3417.92 1 1
+chrome100.0.4896.127 2 2
+safari 16 6
+chrome104.0.0.0 23 22
+netscape5.0 11 5
+opera89.0.4447.51 31 30
+chrome112.0.0.0 2 1
+chrome80.0.3987.162 1 1
+chrome132.0.0.0 1 1
+firefox123 1 1
+safari17.2 1 1
+chrome78.0.3904.62 8 8
+chrome105.0.0.0 6 5
+chrome106.0.0.0 1 1
+mozilla 18 4
+curl 1 0
+firefox120.0 7 6
+chrome104.0.2721 1 0
+chrome91.0.4472.114 4 3
+opera68.3.3557.64528 1 1
+chrome66.0.3359.181 24 22
+android 1 1
+chrome99.0.3809.100 2 1
+chrome130.0.0.0 2 2
+chrome82.0.246 1 1
+chrome133.0.0.0 1 1
+firefox47.0 1 1
+chrome110.0.0.0 3 2
+chrome101.0.4951.54 2 2
+chrome124.0.0.0 7 7
+firefox136.0 26 12
+chrome125.0.0.0 1 1
+edge18 1 1
+msie11.0 3 1
+chrome83.0.4103.97 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla/5.0_(compatible;_AhrefsBot/7.0;__http://ahrefs.com/robot/) 20250517091349
+Go-http-client/1.1 20250529045000
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250518040343
+Google-Firebase 20250507182501
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm)_Chrome/116.0.1938.76_Safari/537.36 20250527163024
+curl/8.3.0 20250529084449
+Mozilla/5.0_(compatible;_Dataprovider.com) 20250526202558
+Googlebot-Image/1.0 20250513032514
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Google-Firebase 20250507182501
+Googlebot-Image/1.0 20250513032514
+Go-http-client/1.1 20250529045000
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 166 225
+From1 0 0
+From2 0 0
+From3 0 0
+From4 50 100
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 49 1134443
+400 1 248
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 12
+/.well-known/security.txt 1 -
+/sitemap.xml 9 -
+/sitemap.txt 6 -
+/security.txt 1 -
+/wp-admin/setup-config.php 4 -
+/ads.txt 8 -
+/sitemaps.xml 6 -
+/wordpress/ 1 -
+/llms.txt 1 -
+/sitemap_index.xml 6 -
+/humans.txt 1 -
+/sitemap.xml.gz 5 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 163
+5.196.160.191 15 15 62737 20250523013627
+38.154.83.53 14 14 59500 20250531140158
+23.105.3.52 14 14 59500 20250501054253
+159.65.24.22 7 7 36588 20250523072419
+3.234.141.125 3 3 11095 20250531225328
+109.243.128.194 3 4 19646 20250515034240
+205.127.85.149 3 6 1636024 20250508202304
+43.143.28.57 2 2 7870 20250505171611
+143.198.46.82 2 4 14800 20250506030957
+206.189.62.92 2 4 14800 20250511075147
+87.236.176.169 1 1 3935 20250518040343
+13.220.155.175 1 1 3935 20250526202810
+87.236.176.213 1 1 3935 20250509000640
+106.75.98.180 1 4 954047 20250514223143
+154.37.108.138 0 1 1808 
+69.63.189.8 0 1 30 
+168.151.199.216 1 1 3935 20250513073032
+52.90.35.71 2 2 6450 20250530222312
+87.236.176.154 1 1 3935 20250508103301
+124.222.196.113 2 2 7870 20250529214512
+159.65.160.190 1 1 3225 20250518183249
+62.141.44.236 1 1 3935 20250505053230
+173.252.83.112 0 1 30 
+93.159.230.84 1 1 3935 20250525015610
+209.141.59.132 1 1 3935 20250517111742
+118.89.95.205 2 2 7870 20250523121416
+69.63.189.1 0 1 30 
+149.56.150.244 1 1 15465 20250526183503
+217.160.202.182 1 1 3935 20250521000210
+136.0.73.106 0 1 946401 
+161.123.219.31 2 5 1631462 20250513073116
+35.222.135.68 1 1 3935 20250506213440
+209.38.164.131 2 4 14800 20250505181236
+69.171.249.3 0 1 30 
+34.239.108.137 1 1 3935 20250514160317
+135.148.195.1 0 1 946401 
+199.244.88.232 1 1 3935 20250522210918
+192.36.172.171 1 1 3935 20250517234719
+178.128.35.162 2 4 14800 20250511201259
+173.252.87.13 0 2 60 
+3.86.162.249 2 2 7870 20250531211523
+173.252.83.116 0 1 30 
+54.188.75.177 1 1 3935 20250511103756
+87.236.176.182 0 1 1034 
+185.247.137.88 0 1 3465 
+128.199.217.44 1 1 3935 20250513044043
+86.104.252.36 1 2 4181 20250513160821
+104.253.203.245 2 5 1631462 20250503084111
+5.133.192.88 1 1 3935 20250515130614
+91.99.116.169 1 1 3935 20250521142550
+44.200.241.179 1 1 3225 20250510131557
+93.158.91.249 1 1 3935 20250512093553
+44.243.167.82 2 2 7870 20250524045543
+165.227.34.98 1 1 3935 20250515190416
+135.148.195.15 0 1 946401 
+93.158.90.41 1 1 3935 20250501111451
+46.101.43.161 2 4 14800 20250513184529
+149.57.180.157 1 1 3935 20250504074752
+5.133.192.108 1 1 3935 20250522233322
+23.105.0.150 1 1 3237 20250501054239
+95.182.100.70 1 1 3935 20250529142650
+3.80.211.198 1 1 3225 20250531225327
+194.164.107.5 1 1 3935 20250529095152
+34.217.53.247 2 2 7870 20250501204900
+173.252.83.2 0 1 30 
+205.169.39.24 2 5 1632636 20250518050937
+52.112.39.133 1 2 951929 20250508202331
+44.213.121.41 1 1 3225 20250513063545
+69.171.231.1 0 1 30 
+143.110.167.65 2 4 14800 20250525184905
+220.250.10.3 1 1 15465 20250529045000
+69.63.189.112 0 1 30 
+34.219.8.201 2 2 7870 20250510021558
+13.218.187.46 1 1 3225 20250526202810
+54.236.241.105 2 2 7870 20250523083517
+69.171.230.8 0 1 30 
+173.252.107.1 0 1 30 
+129.146.24.173 1 2 15782 20250506232735
+149.57.180.5 1 1 3935 20250505175247
+35.93.137.237 2 2 7870 20250506022214
+156.146.60.73 2 2 3935 20250516022741
+69.63.189.7 0 1 30 
+69.171.230.7 0 1 30 
+69.171.231.112 0 1 30 
+134.199.237.128 2 4 14800 20250507181341
+3.235.46.147 1 1 3935 20250528085358
+170.39.218.59 1 1 3935 20250516135916
+135.148.195.2 1 1 3935 20250501035901
+44.203.74.53 1 1 3225 20250514160317
+69.171.249.8 0 1 30 
+188.166.18.234 2 4 14800 20250531185151
+185.247.137.138 1 1 3935 20250517234449
+87.236.176.240 0 1 1034 
+134.122.36.98 2 4 14800 20250509182059
+38.154.83.86 1 1 3237 20250531140138
+135.148.195.13 0 1 3465 
+149.57.180.156 1 1 3935 20250525210118
+104.239.38.178 1 1 5319 20250514211036
+173.252.87.23 0 1 30 
+54.245.223.55 2 2 7870 20250508053602
+74.125.150.32 1 1 3935 20250503081854
+162.212.175.206 1 1 3935 20250503005856
+87.236.176.246 0 1 3465 
+69.171.231.9 0 3 90 
+185.247.137.57 0 1 3465 
+18.237.106.174 1 1 3935 20250525102137
+206.81.21.54 2 4 14800 20250527184000
+3.86.16.79 2 2 7870 20250510131558
+149.57.180.62 1 1 3935 20250507065756
+111.231.1.45 2 2 7870 20250518021453
+168.151.104.71 0 1 246 
+69.171.230.1 0 1 30 
+178.62.27.229 2 4 14800 20250523201801
+87.236.176.244 0 1 1034 
+87.236.176.160 0 1 3465 
+159.203.64.60 2 4 14800 20250521185516
+52.123.190.60 0 1 946401 
+69.171.231.114 0 2 60 
+101.199.254.201 1 1 15465 20250529021523
+18.205.29.4 1 1 3225 20250510131557
+135.148.195.7 1 1 3935 20250508091929
+159.203.178.170 2 4 14800 20250529182241
+173.252.87.18 0 1 30 
+149.57.180.152 1 1 3935 20250504064407
+170.39.218.60 1 2 4110 20250516232308
+69.171.249.6 0 1 30 
+5.133.192.146 1 1 3935 20250508001840
+104.248.161.206 2 4 14800 20250517181627
+69.171.249.10 0 1 30 
+185.247.137.130 0 1 1034 
+173.252.87.9 0 2 60 
+69.63.189.2 0 1 30 
+173.252.87.116 0 1 30 
+69.171.231.2 0 1 30 
+45.55.78.20 1 1 3237 20250515060054
+135.148.195.10 0 1 3465 
+18.236.181.127 2 2 7870 20250528094502
+157.173.122.176 1 1 3935 20250512233145
+44.203.232.234 2 2 7870 20250513063546
+18.209.229.108 1 1 3935 20250501090252
+44.203.78.199 2 2 7870 20250531225330
+106.75.66.75 1 4 954047 20250514223107
+93.158.90.17 1 1 3935 20250507140655
+199.244.88.228 1 1 3935 20250507175656
+35.89.117.253 2 2 7870 20250516000756
+13.217.137.110 1 1 3935 20250506113528
+46.101.107.35 2 4 14800 20250503201156
+3.123.42.119 2 2 3935 20250501032414
+44.200.225.121 1 1 3935 20250507110235
+74.125.150.39 2 2 7870 20250507182501
+149.57.180.115 1 1 3935 20250511080053
+161.35.104.122 2 4 14800 20250519182126
+173.252.83.4 0 1 30 
+173.252.87.30 0 1 30 
+52.112.39.132 2 5 1904137 20250508202239
+54.202.251.216 2 2 7870 20250521194214
+44.247.222.20 2 2 7870 20250531191933
+94.247.172.129 1 1 3935 20250525055244
+152.39.192.166 1 1 680246 20250513073032
+35.95.62.101 2 2 7870 20250504005254
+77.74.177.114 1 1 3935 20250511014537
+54.202.223.92 2 2 7870 20250529194525
+134.209.24.161 2 4 14800 20250525012959
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20250501 22 24 1036273 7
+20250503 7 12 1658127 5
+20250504 4 4 15800 3
+20250505 6 8 30660 4
+20250506 7 10 46382 5
+20250507 7 9 34475 6
+20250508 13 25 6428056 8
+20250509 3 7 23354 2
+20250510 6 6 22310 4
+20250511 7 11 41405 5
+20250512 2 2 7870 2
+20250513 11 20 3298109 8
+20250514 5 11 1920573 5
+20250515 4 5 15468 4
+20250516 6 6 19735 4
+20250517 5 9 31164 4
+20250518 6 11 1652225 4
+20250519 2 4 14800 1
+20250521 6 8 30540 4
+20250522 2 2 7870 2
+20250523 29 31 133090 6
+20250524 2 2 7870 1
+20250525 8 13 45575 6
+20250526 3 3 22685 3
+20250527 2 4 14860 1
+20250528 3 3 11865 2
+20250529 10 12 69400 7
+20250530 3 3 11155 2
+20250531 25 27 107657 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+0s-30s 118
+5mn-15mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 166 682845 120 112
+/cs/py-and-the-secrets-of-thon-a-fun-first-adventure-in-python/ 5 23815 1 2
+/cs/al-s-go-rhythm-algorithms-made-easy/ 5 23922 1 1
+/hero-image.webp 5 3401230 1 4
+/cs/the-recipe-for-rainbow-soup-decomposition-made-simple/ 4 18944 0 0
+/cs/rock-signals-binary-code-made-easy/ 4 18383 0 0
+/cs/treehouse-secrets-password-security-made-easy/ 4 18788 0 0
+/cs/the-birthday-cake-of-type-kingdom-a-tale-of-data-types/ 4 19585 0 1
+/cs/one-little-byte-data-sizes-made-easy/ 4 19563 0 0
+/cs/spellbound-by-sparkles-a-cautionary-tale-of-social-media/ 3 12879 0 0
+/cs/haley-s-hoop-loops-made-easy/ 3 13095 0 0
+/cs/if-you-re-happy-or-you-know-it-a-conditional-tale/ 3 12795 0 0
+/cs/the-magic-of-box-7-variables-made-easy/ 3 12495 0 0
+/cs/a-berry-good-output-functions-made-easy/ 3 12876 0 3
+END_SIDER

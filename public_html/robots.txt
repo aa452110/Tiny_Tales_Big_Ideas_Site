@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tinytalesbigideas.com/sitemap.xml
+
+# Allow all crawlers to access all content
+# Block any admin or private directories if they exist
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow access to CSS and JS files
+Allow: /style.css
+Allow: /script.js
+Allow: /reader/
+
+# Crawl delay (optional - be nice to servers)
+Crawl-delay: 1

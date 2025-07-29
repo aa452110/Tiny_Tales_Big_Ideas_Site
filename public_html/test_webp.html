@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Test - WebP Optimization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .image-test {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .image-test img {
+            max-width: 200px;
+            max-height: 200px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+        }
+        .image-test .error {
+            color: red;
+            font-size: 12px;
+        }
+        .image-test .success {
+            color: green;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebP Image Optimization Test</h1>
+    
+    <div class="test-section">
+        <h2>Amazon Cover Images Test</h2>
+        <div class="image-test">
+            <h3>One Little Byte Cover (Amazon)</h3>
+            <img src="https://m.media-amazon.com/images/I/51CotbOC3TL._SL500_.jpg" 
+                 alt="One Little Byte Cover Amazon" 
+                 onload="showStatus(this, 'success')"
+                 onerror="showStatus(this, 'error')">
+            <div class="status"></div>
+        </div>
+        
+        <div class="image-test">
+            <h3>Spellbound Cover (Amazon)</h3>
+            <img src="https://m.media-amazon.com/images/I/51eG7VY2QCL._SL500_.jpg" 
+                 alt="Spellbound Cover Amazon"
+                 onload="showStatus(this, 'success')"
+                 onerror="showStatus(this, 'error')">
+            <div class="status"></div>
+        </div>
+        
+        <div class="image-test">
+            <h3>Al's Go Rhythm Cover (Amazon)</h3>
+            <img src="https://m.media-amazon.com/images/I/51NtienQsvL._SL500_.jpg" 
+                 alt="Al's Go Rhythm Cover Amazon"
+                 onload="showStatus(this, 'success')"
+                 onerror="showStatus(this, 'error')">
+            <div class="status"></div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Local Cover Images Test (Fallback)</h2>
+        <div class="image-test">
+            <h3>One Little Byte Cover (WebP)</h3>
+            <img src="images/one-little-byte/cover.webp" 
+                 alt="One Little Byte Cover WebP" 
+                 onload="showStatus(this, 'success')"
+                 onerror="showStatus(this, 'error')">
+            <div class="status"></div>
+        </div>
+        
+        <div class="image-test">
+            <h3>Spellbound Cover (WebP)</h3>
+            <img src="images/spellbound-by-sparkles/cover.webp" 
+                 alt="Spellbound Cover WebP"
+                 onload="showStatus(this, 'success')"
+                 onerror="showStatus(this, 'error')">
+            <div class="status"></div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Sample Story Images Test</h2>
+        <div class="image-test">
+            <h3>One Little Byte Page 1 (WebP)</h3>
+            <img src="images/one-little-byte/1.webp" 
+                 alt="One Little Byte Page 1 WebP"
+                 onload="showStatus(this, 'success')"
+                 onerror="showStatus(this, 'error')">
+            <div class="status"></div>
+        </div>
+        
+        <div class="image-test">
+            <h3>Spellbound Page 1 (WebP)</h3>
+            <img src="images/spellbound-by-sparkles/1.webp" 
+                 alt="Spellbound Page 1 WebP"
+                 onload="showStatus(this, 'success')"
+                 onerror="showStatus(this, 'error')">
+            <div class="status"></div>
+        </div>
+        
+        <div class="image-test">
+            <h3>Al's Go Rhythm Page 1 (WebP)</h3>
+            <img src="images/als-go-rhythm-adventure/1.webp" 
+                 alt="Al's Go Rhythm Page 1 WebP"
+                 onload="showStatus(this, 'success')"
+                 onerror="showStatus(this, 'error')">
+            <div class="status"></div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>JSON Data Test</h2>
+        <div id="json-test">
+            <button onclick="testJSON()">Test JSON Loading</button>
+            <div id="json-results"></div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>File Size Comparison</h2>
+        <p>The images were optimized from PNG to WebP format:</p>
+        <ul>
+            <li><strong>Original PNG files:</strong> ~258 MB total</li>
+            <li><strong>Optimized WebP files:</strong> ~27 MB total</li>
+            <li><strong>Space savings:</strong> 89.5% reduction!</li>
+        </ul>
+    </div>
+
+    <script>
+        function showStatus(img, status) {
+            const statusDiv = img.parentElement.querySelector('.status');
+            if (status === 'success') {
+                statusDiv.innerHTML = '<span class="success">✓ Loaded successfully</span>';
+                // Show file size if possible
+                fetch(img.src, { method: 'HEAD' })
+                    .then(response => {
+                        const size = response.headers.get('content-length');
+                        if (size) {
+                            const sizeMB = (size / (1024 * 1024)).toFixed(2);
+                            statusDiv.innerHTML += `<br><span class="success">Size: ${sizeMB} MB</span>`;
+                        }
+                    })
+                    .catch(() => {});
+            } else {
+                statusDiv.innerHTML = '<span class="error">✗ Failed to load</span>';
+            }
+        }
+        
+        async function testJSON() {
+            const resultsDiv = document.getElementById('json-results');
+            resultsDiv.innerHTML = '<p>Testing JSON files...</p>';
+            
+            const tests = [
+                { name: 'One Little Byte', file: 'data/one_little_byte.json' },
+                { name: 'Spellbound by Sparkles', file: 'data/spellbound_by_sparkles.json' },
+                { name: "Al's Go Rhythm", file: 'data/als_go_rhythm.json' }
+            ];
+            
+            let results = '<h3>JSON Test Results:</h3>';
+            
+            for (const test of tests) {
+                try {
+                    const response = await fetch(test.file);
+                    const data = await response.json();
+                    results += `<p><span class="success">✓ ${test.name}:</span> ${data.pages.length} pages loaded</p>`;
+                    
+                    // Check cover URL
+                    if (data.cover) {
+                        results += `<p style="margin-left: 20px;">Cover: <a href="${data.cover}" target="_blank">Amazon URL</a></p>`;
+                    }
+                    
+                    // Check first image path
+                    if (data.pages[0] && data.pages[0].image) {
+                        const imageFormat = data.pages[0].image.endsWith('.webp') ? 'WebP' : 'PNG/JPG';
+                        results += `<p style="margin-left: 20px;">First image: ${data.pages[0].image} (${imageFormat})</p>`;
+                    }
+                } catch (error) {
+                    results += `<p><span class="error">✗ ${test.name}:</span> ${error.message}</p>`;
+                }
+            }
+            
+            resultsDiv.innerHTML = results;
+        }
+    </script>
+</body>
+</html>

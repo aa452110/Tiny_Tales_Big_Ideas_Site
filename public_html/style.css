@@ -1,0 +1,464 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 50px;
+}
+
+.company-name {
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+    background-color: #e6f3ff;
+}
+
+.breadcrumb ol {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.breadcrumb li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: ">";
+    margin: 0 8px;
+    color: #6c757d;
+    font-weight: normal;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.breadcrumb a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.breadcrumb li:last-child {
+    color: #6c757d;
+    font-weight: normal;
+}
+
+/* Hero Section */
+
+  #hero {
+    position: relative;
+    background: url('hero-image.webp') center/cover no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+  }
+
+  #hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: 0;
+}
+  
+  .hero-container {
+    position: relative;
+    z-index: 1;
+    /* Optionally add margin-top if you need more space */
+  }
+
+.hero-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-container p {
+    font-size: 1.2em;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+.about-content {
+    padding: 2rem 0;
+}
+
+/* Specific styling for the author section */
+#author {
+    border-top: 2px solid black;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+/* About Section for Company (same as #about) */
+#about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-text {
+    flex: 3;
+    min-width: 300px;
+    text-align: left;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about-image img {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    border: darkgray 2px solid;
+    padding: 5px;
+}
+
+/* Books Section */
+#books .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.book-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+}
+
+.book-info {
+    padding: 20px;
+}
+
+.book-info h3 {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.book-info p {
+    margin-bottom: 20px;
+    font-size: 0.95em;
+    color: #666;
+}
+
+/* Updated Button Styles */
+.amazon-link,
+.product-link,
+.read-book-link,
+.reader-link {
+  display: inline-block;
+  background: #007BFF;
+  color: #fff;
+  padding: 8px 16px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.amazon-link:hover,
+.product-link:hover,
+.read-book-link:hover,
+.reader-link:hover {
+  background: #0056b3;
+}
+
+/* Special styling for read book link */
+.read-book-link,
+.reader-link {
+  background: #28a745; /* Green color to distinguish from Amazon link */
+  margin-left: 10px;
+}
+
+.read-book-link:hover,
+.reader-link:hover {
+  background: #1e7e34;
+}
+
+/* Amazon link specific styling */
+.amazon-link {
+  background: #ff9900;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.amazon-link:hover {
+  background: #e68a00;
+}
+
+/* Optional: Style for the series info text */
+.book-info .series {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Hide the company name on smaller screens */
+@media (max-width: 600px) {
+  .company-name {
+    display: none;
+  }
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Additional styles for the tabs on product pages */
+.tabs {
+  margin-top: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-buttons button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: border-bottom 0.3s;
+}
+
+.tab-buttons button.active {
+  border-bottom: 2px solid #007BFF;
+  font-weight: bold;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px 0;
+  max-width: 600px;
+}
+
+.tab-content p {
+  margin-bottom: 1.5em;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Author Section: On desktop, display image on left and text on right */
+#author .about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  #author .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+    #hero {
+      background-attachment: scroll;
+    }
+  }
+
+  .book-info .topic {
+    font-size: 1em;
+    font-weight: bold;
+    color: #007BFF;
+    margin-bottom: 5px;
+  }
+
+  .book-info .blurb {
+    font-size: 0.85em;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+
+
+  /* tab-content list stlyings */
+  .tab-content ul,
+.tab-content ol {
+  margin: 1em 0;
+  padding-left: 2em; /* Indents the list items */
+  line-height: 1.6;
+}
+
+.tab-content li {
+  margin-bottom: 0.5em; /* Adds space between list items */
+}
+
+/* Optional: customize list style markers */
+.tab-content ul {
+  list-style-type: disc;
+}
+
+.tab-content ol {
+  list-style-type: decimal;
+}
+
+/* Optional: add a subtle background and border for a "card" feel */
+.tab-content ul,
+.tab-content ol {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1em 2em;
+}
+
+  
+  /* Product header styling (default mobile layout) */
+  .product-header {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .product-header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .product-header h1 {
+    margin: 20px 0 10px;
+    font-size: 2em;
+  }
+  .blurb {
+    font-size: 1em;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  /* Desktop layout: split the header into two columns */
+  @media (min-width: 768px) {
+    .product-header {
+      text-align: left;
+    }
+    .product-header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .product-image {
+      flex: 1;
+      max-width: 33.33%;
+      padding-right: 20px;
+    }
+    .product-info-text {
+      flex: 2;
+    }
+    .product-info-text h1 {
+      text-align: left;
+    }
+    .product-info-text .blurb {
+      text-align: left;
+    }
+  }
+  
+  
